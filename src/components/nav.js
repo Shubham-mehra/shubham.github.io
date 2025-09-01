@@ -8,7 +8,7 @@ import { loaderDelay } from '@utils';
 import { useScrollDirection, usePrefersReducedMotion } from '@hooks';
 import { Menu } from '@components';
 import { IconLogo, IconHex } from '@components/icons';
-import resumeLink from '../../static/Shubham-Resume-2025.pdf';
+import resumeLink from '/Shubham-Resume-2025.pdf';
 
 const StyledHeader = styled.header`
   ${({ theme }) => theme.mixins.flexBetween};
