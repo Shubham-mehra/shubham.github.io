@@ -204,13 +204,9 @@ const Nav = ({ isHome }) => {
       )}
     </div>
   );
-
+  const resumeLink = '/Shubham-Resume-2025.pdf';
   const ResumeLink = (
-    <a
-      className="resume-button"
-      href={'https://68b5b99e5ff1f000086a25c4--shubham-mehra.netlify.app/'}
-      target="_blank"
-      rel="noopener noreferrer">
+    <a className="resume-button" href={resumeLink} target="_blank" rel="noopener noreferrer">
       Resume
     </a>
   );
