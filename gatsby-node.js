@@ -2,7 +2,20 @@
  * Implement Gatsby's Node APIs in this file.
  *
  * See: https://www.gatsbyjs.org/docs/node-apis/
+ *
+ *
  */
+
+// ✅ Polyfill for File in Node.js (needed for gatsby-plugin-offline + undici)
+if (typeof global.File === 'undefined') {
+  global.File = class File extends Blob {
+    constructor(chunks, filename, options = {}) {
+      super(chunks, options);
+      this.name = filename;
+      this.lastModified = options.lastModified || Date.now();
+    }
+  };
+}
 
 const path = require('path');
 const _ = require('lodash');
