@@ -16,9 +16,13 @@ if (typeof global.File === 'undefined') {
     }
   };
 }
-
+const { SourceMapConsumer } = require('source-map');
 const path = require('path');
 const _ = require('lodash');
+
+SourceMapConsumer.initialize({
+  'lib/mappings.wasm': path.join(path.dirname(require.resolve('source-map')), 'lib/mappings.wasm'),
+});
 
 exports.createPages = async ({ actions, graphql, reporter }) => {
   const { createPage } = actions;
