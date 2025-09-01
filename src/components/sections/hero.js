@@ -3,7 +3,8 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
-import resumeLink from '/Shubham-Resume-2025.pdf';
+
+const resumeLink = '/Shubham-Resume-2025.pdf';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};

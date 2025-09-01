@@ -5,7 +5,8 @@ import styled from 'styled-components';
 import { navLinks } from '@config';
 import { KEY_CODES } from '@utils';
 import { useOnClickOutside } from '@hooks';
-import resumeLink from '/Shubham-Resume-2025.pdf';
+
+const resumeLink = '/Shubham-Resume-2025.pdf';
 const StyledMenu = styled.div`
   display: none;
 
