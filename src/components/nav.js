@@ -8,6 +8,7 @@ import { loaderDelay } from '@utils';
 import { useScrollDirection, usePrefersReducedMotion } from '@hooks';
 import { Menu } from '@components';
 import { IconLogo, IconHex } from '@components/icons';
+import resumeLink from '../../static/Shubham-Resume-2025.pdf';
 
 const StyledHeader = styled.header`
   ${({ theme }) => theme.mixins.flexBetween};
@@ -206,11 +207,7 @@ const Nav = ({ isHome }) => {
   );
 
   const ResumeLink = (
-    <a
-      className="resume-button"
-      href="/Shubham-Resume-2025.pdf"
-      target="_blank"
-      rel="noopener noreferrer">
+    <a className="resume-button" href={resumeLink} target="_blank" rel="noopener noreferrer">
       Resume
     </a>
   );

@@ -3,6 +3,7 @@ import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import styled from 'styled-components';
 import { navDelay, loaderDelay } from '@utils';
 import { usePrefersReducedMotion } from '@hooks';
+import resumeLink from '../../static/Shubham-Resume-2025.pdf';
 
 const StyledHeroSection = styled.section`
   ${({ theme }) => theme.mixins.flexCenter};
@@ -78,11 +79,7 @@ const Hero = () => {
     </>
   );
   const five = (
-    <a
-      className="email-link"
-      href="https://himanshu-khati.netlify.app/Shubham-Resume-2025.pdf"
-      target="_blank"
-      rel="noreferrer">
+    <a className="email-link" href={resumeLink} target="_blank" rel="noreferrer">
       My Resume
     </a>
   );
