@@ -126,7 +126,9 @@ const StyledProject = styled.li`
   .project-title {
     color: var(--lightest-slate);
     font-size: clamp(24px, 5vw, 28px);
-
+    a {
+      z-index: 2;
+    }
     @media (min-width: 768px) {
       margin: 0 0 20px;
     }
@@ -136,7 +138,7 @@ const StyledProject = styled.li`
 
       a {
         position: static;
-
+        z-index: 2;
         &:before {
           content: '';
           display: block;
