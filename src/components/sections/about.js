@@ -145,28 +145,10 @@ const About = () => {
 
       <div className="inner">
         <StyledText>
-          {/* <div>
-            <p>
-              Hi! My name is Himanshu Khati. I am software engineer developing native{' '}
-              <a href="https://developer.android.com/studio">Android</a>, apps for more than 6
-              Years. I am passionate about mobile and I'm always seeking to grow my skills and work
-              with teams who share the same passion.
-            </p>
-
-            <p>
-              Currently I am exploring <a href="https://flutter.dev/">Flutter</a>,{' '}
-              <a href="https://developer.apple.com/programs/">iOS</a>,{' '}
-              <a href="https://kotlinlang.org/docs/multiplatform.html">Kotlin Multiplatform</a>, and{' '}
-              <a href="https://developer.android.com/jetpack/compose">Jetpack Compose</a>. I am
-              currently working @<a href="https://gigforce.in/">gigforce</a> as Lead mobile
-              developer
-            </p>
-
-            <p>Here are a few technologies I’ve worked with:</p>
-          </div> */}
           <div>
             <p>
-              Hi! My name is Shubham Mehra. I am a software engineer developing scalable and secure{' '}
+              Hi! I'm <strong>Shubham Mehra</strong>, a <strong>Senior Full Stack Engineer</strong>{' '}
+              specializing in building high-performance, scalable applications using{' '}
               <a href="https://react.dev/" target="_blank" rel="noopener noreferrer">
                 React
               </a>
@@ -174,28 +156,44 @@ const About = () => {
               <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">
                 Next.js
               </a>
-              , and{' '}
+              ,{' '}
               <a href="https://nodejs.org/" target="_blank" rel="noopener noreferrer">
                 Node.js
-              </a>{' '}
-              web applications for more than 6+ years. I am passionate about full stack development
-              and I'm always seeking to grow my skills and work with teams who share the same
-              passion.
+              </a>
+              , and{' '}
+              <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer">
+                Python
+              </a>
+              . With <strong>6+ years of industry experience</strong>, I've led the development of
+              enterprise platforms serving thousands of users across the globe.
             </p>
 
             <p>
-              Currently I am exploring modern frameworks, scalable backend architectures with{' '}
-              <a href="https://nestjs.com/" target="_blank" rel="noopener noreferrer">
-                NestJS
+              My expertise spans{' '}
+              <strong>microservices, real-time systems, and cloud-native architectures</strong> with{' '}
+              <a href="https://www.docker.com/" target="_blank" rel="noopener noreferrer">
+                Docker
               </a>
-              , and cloud integrations. I am currently working @
+              ,{' '}
+              <a href="https://kubernetes.io/" target="_blank" rel="noopener noreferrer">
+                Kubernetes
+              </a>
+              , and modern CI/CD pipelines. I'm currently diving into{' '}
+              <a href="https://openai.com/" target="_blank" rel="noopener noreferrer">
+                AI-powered solutions
+              </a>
+              , integrating LLMs to build smarter, more intuitive applications.
+            </p>
+
+            <p>
+              As an <strong>Application Module Lead</strong> at{' '}
               <a href="https://telusinternational.com/" target="_blank" rel="noopener noreferrer">
                 Telus International
-              </a>{' '}
-              as an Application Lead Module.
+              </a>
+              , I drive end-to-end development of scalable systems, mentor engineering teams, and
+              deliver impactful solutions that bridge innovation with real-world business needs.
             </p>
           </div>
-
           <ul className="skills-list">
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>

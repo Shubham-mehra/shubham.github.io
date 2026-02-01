@@ -219,7 +219,7 @@ const Nav = ({ isHome }) => {
             {Logo}
 
             <StyledLinks>
-              <ol>
+              <ol style={{ padding: 0, margin: 0, listStyle: 'none', display: 'flex' }}>
                 {navLinks &&
                   navLinks.map(({ url, name }, i) => (
                     <li key={i}>
@@ -243,7 +243,7 @@ const Nav = ({ isHome }) => {
             </TransitionGroup>
 
             <StyledLinks>
-              <ol>
+              <ol style={{ padding: 0, margin: 0, listStyle: 'none', display: 'flex' }}>
                 <TransitionGroup component={null}>
                   {isMounted &&
                     navLinks &&
