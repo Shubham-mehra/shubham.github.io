@@ -6,7 +6,7 @@ import { navLinks } from '@config';
 import { KEY_CODES } from '@utils';
 import { useOnClickOutside } from '@hooks';
 
-const resumeLink = '/Shubham-Resume-2025.pdf';
+const resumeLink = '/Shubham-Resume-2026.pdf';
 const StyledMenu = styled.div`
   display: none;
 
